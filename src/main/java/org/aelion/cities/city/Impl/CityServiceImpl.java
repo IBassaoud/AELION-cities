@@ -3,7 +3,9 @@ package org.aelion.cities.city.Impl;
 import org.aelion.cities.city.City;
 import org.aelion.cities.city.CityRepository;
 import org.aelion.cities.city.CityService;
+import org.aelion.cities.city.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
